@@ -2,7 +2,7 @@
 
 <img src="https://c.tenor.com/aF0ipAtOk9cAAAAC/spy-x-family-anya.gif" alt="Axera" style="width: 50%; height: auto;" >
 
-<p align="center">Axera bio dapat membantu membuat bio anda seperti linktree.</p>
+<p align="center">Paydisini Lib PHP Class.</p>
 
 ## Installasi
 
