@@ -18,6 +18,11 @@
 'Nomor_telepon');`
 
 <p>Jika fee ingin di tanggung buyer ubah type fee menjadi 1 contohnya <b>'type_fee' => 1</b></p>
+
+## Memeriksa Status Transaksi
+
+`$status = $paydisini->status('code_transaction_kamu');`
+
 ## About the Author
 
 Axera bio created by <a href="https://siapa.me">Rud Az</a>.
