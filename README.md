@@ -14,7 +14,7 @@
 'code_transaction_kamu',
 'code_method_pembayaran_paydisini',
 'Nominal_transaksi_kamu',
-'Catatan_Transaksi_kamu,
+'Catatan_Transaksi_kamu',
 'Nomor_telepon'
 );`
 
