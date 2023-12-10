@@ -6,7 +6,7 @@
 
 ## Installasi
 
- `$paydisini = new Paydisini('Api_key_kami');`
+ `$paydisini = new Paydisini('Api_key_kamu');`
 
 ## Membuat Transaksi Baru
 
