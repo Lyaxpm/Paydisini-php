@@ -5,11 +5,7 @@
 <p align="center">Axera bio dapat membantu membuat bio anda seperti linktree.</p>
 
 ## Installasi
-
-Cari `'$paydisini = new Paydisini('Api_key_kami');'` untuk merubah url tujuan.
-
-Cari `strings: ["Developers.", "Blogger.", "People."]` untuk merubah text mengetik.
-
+ `$paydisini = new Paydisini('Api_key_kami');`
 ## About the Author
 
 Axera bio created by <a href="https://siapa.me">Rud Az</a>.
