@@ -23,14 +23,14 @@ class Paydisini {
     Paydisini::$apiKey = $apiKey;
   }
 
-  public function transaction($code, $service, $amount, $wallet = null) {
+  public function transaction($code, $service, $amount, $note = null, $wallet = null) {
     return Paydisini::Request(self::URL, [
       'key' => Paydisini::$apiKey,
       'request' => 'new',
       'unique_code' => $code,
       'service' => $service,
       'amount' => $amount,
-      'note' => 'Request new order',
+      'note' => $note,
       'valid_time' => 10800,
       'ewallet_phone' => $wallet,
       'type_fee' => 2,
