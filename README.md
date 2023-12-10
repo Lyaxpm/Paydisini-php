@@ -5,9 +5,11 @@
 <p align="center">Axera bio dapat membantu membuat bio anda seperti linktree.</p>
 
 ## Installasi
+
  `$paydisini = new Paydisini('Api_key_kami');`
 
 ## Membuat Transaksi Baru
+
 `$transaction = $paydisini->transaction(
 'code_transaction_kamu',
 'code_method_pembayaran_paydisini',
@@ -16,7 +18,7 @@
 'Nomor_telepon'
 );`
 
-<p>Jika fee ingin di tanggung buyer ubah type fee menjadi 1 contohnya `'type_fee' => 1`</p>
+<p>Jika fee ingin di tanggung buyer ubah type fee menjadi 1 contohnya <b>'type_fee' => 1</b></p>
 ## About the Author
 
 Axera bio created by <a href="https://siapa.me">Rud Az</a>.
