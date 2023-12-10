@@ -15,8 +15,7 @@
 'code_method_pembayaran_paydisini',
 'Nominal_transaksi_kamu',
 'Catatan_Transaksi_kamu',
-'Nomor_telepon'
-);`
+'Nomor_telepon');`
 
 <p>Jika fee ingin di tanggung buyer ubah type fee menjadi 1 contohnya <b>'type_fee' => 1</b></p>
 ## About the Author
