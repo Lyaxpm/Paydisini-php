@@ -1,4 +1,4 @@
-<h1 align="center">Axera Bio</h1>
+<h1 align="center">Paydisini-php class</h1>
 
 <img src="https://c.tenor.com/aF0ipAtOk9cAAAAC/spy-x-family-anya.gif" alt="Axera" style="width: 50%; height: auto;" >
 
@@ -6,6 +6,17 @@
 
 ## Installasi
  `$paydisini = new Paydisini('Api_key_kami');`
+
+## Membuat Transaksi Baru
+`$transaction = $paydisini->transaction(
+'code_transaction_kamu',
+'code_method_pembayaran_paydisini',
+'Nominal_transaksi_kamu',
+'Catatan_Transaksi_kamu,
+'Nomor_telepon'
+);`
+
+<p>Jika fee ingin di tanggung buyer ubah type fee menjadi 1 contohnya `'type_fee' => 1`</p>
 ## About the Author
 
 Axera bio created by <a href="https://siapa.me">Rud Az</a>.
