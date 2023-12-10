@@ -19,8 +19,8 @@ class Paydisini {
     'call' => 'CallbackStatus'
   ];
 
-  public function config($params) {
-    Paydisini::$apiKey = $params['apiKey'];
+  public function __construct($apiKey) {
+    Paydisini::$apiKey = $apiKey;
   }
 
   public function transaction($code, $service, $amount, $wallet = null) {
