@@ -23,14 +23,13 @@
 
 `$status = $paydisini->status('code_transaction_kamu');`
 
+## Melihat Payment Channel
+
+`$chanel = $paydisini->chanel();`
+
 ## About the Author
 
-Axera bio created by <a href="https://siapa.me">Rud Az</a>.
-
-## Demo Web
-
-<a href="https://exccr.github.io/Axera-Bio/" target="_blank">Click Me</a>
-
+Paydisini-php class created by <a href="https://www.freyapp.my.id">Rud Az</a>.
 
 ## Donate
 
